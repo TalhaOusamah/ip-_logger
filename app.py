@@ -254,9 +254,17 @@ CONSENT_PAGE = """
             line-height: 1.5;
             margin-bottom: 18px;
         }
+        html {
+    background-color: #000;
+}
+
+body.landing-page {
+    background-color: #000 !important;
+    min-height: 100vh;
+}
     </style>
 </head>
-<body>
+<body class="landing-page">
     <div class="box">
     <div class="location-icon">📍</div>
 
