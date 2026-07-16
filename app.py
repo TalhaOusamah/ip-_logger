@@ -389,6 +389,13 @@ ADMIN_LOGIN_PAGE = """
             color: #c62828;
             margin-top: 12px;
         }
+        html {
+    background: #000 !important
+}
+
+body {
+    background: #000 !important
+}
     </style>
 </head>
 <body>
