@@ -11,8 +11,14 @@ app = Flask(__name__)
 
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "change-this-secret-key")
 
-LOG_FILE = "requests.jsonl"
-GEOCODE_CACHE_FILE = "geocode_cache.json"
+DATA_DIR = (
+    "/tmp"
+    if os.environ.get("VERCEL")
+    else os.path.dirname(os.path.abspath(__file__))
+)
+
+LOG_FILE = os.path.join(DATA_DIR, "requests.jsonl")
+GEOCODE_CACHE_FILE = os.path.join(DATA_DIR, "geocode_cache.json")
 GOOGLE_MAPS_REDIRECT = "https://www.google.com/maps"
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
 NOMINATIM_USER_AGENT = os.environ.get(
