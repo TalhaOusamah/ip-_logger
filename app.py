@@ -254,13 +254,402 @@ CONSENT_PAGE = """
             line-height: 1.5;
             margin-bottom: 18px;
         }
-        html {
-    background-color: #000;
+       html {
+    background: #050505
 }
 
 body.landing-page {
-    background-color: #000 !important;
-    min-height: 100vh;
+    margin: 0
+}
+
+body.landing-page {
+    min-height: 100vh
+}
+
+body.landing-page {
+    display: grid
+}
+
+body.landing-page {
+    place-items: center
+}
+
+body.landing-page {
+    padding: 24px
+}
+
+body.landing-page {
+    box-sizing: border-box
+}
+
+body.landing-page {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body.landing-page {
+    background: radial-gradient(circle at 20% 20%, #172554 0, transparent 32%), radial-gradient(circle at 80% 80%, #3b0764 0, transparent 30%), #050505
+}
+
+.box {
+    position: relative
+}
+
+.box {
+    width: min(540px, 100%)
+}
+
+.box {
+    box-sizing: border-box
+}
+
+.box {
+    padding: 52px 46px 38px
+}
+
+.box {
+    text-align: center
+}
+
+.box {
+    overflow: hidden
+}
+
+.box {
+    border-radius: 28px
+}
+
+.box {
+    border: 1px solid rgba(255, 255, 255, 0.16)
+}
+
+.box {
+    background: linear-gradient(145deg, rgba(30, 30, 38, 0.96), rgba(10, 10, 15, 0.96))
+}
+
+.box {
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.08)
+}
+
+.box::before {
+    content: ""
+}
+
+.box::before {
+    position: absolute
+}
+
+.box::before {
+    width: 220px
+}
+
+.box::before {
+    height: 220px
+}
+
+.box::before {
+    top: -120px
+}
+
+.box::before {
+    left: -80px
+}
+
+.box::before {
+    border-radius: 50%
+}
+
+.box::before {
+    background: rgba(59, 130, 246, 0.28)
+}
+
+.box::before {
+    filter: blur(70px)
+}
+
+.box::after {
+    content: ""
+}
+
+.box::after {
+    position: absolute
+}
+
+.box::after {
+    width: 220px
+}
+
+.box::after {
+    height: 220px
+}
+
+.box::after {
+    right: -100px
+}
+
+.box::after {
+    bottom: -140px
+}
+
+.box::after {
+    border-radius: 50%
+}
+
+.box::after {
+    background: rgba(147, 51, 234, 0.24)
+}
+
+.box::after {
+    filter: blur(70px)
+}
+
+.box > * {
+    position: relative
+}
+
+.box > * {
+    z-index: 1
+}
+
+.location-icon {
+    width: 76px
+}
+
+.location-icon {
+    height: 76px
+}
+
+.location-icon {
+    display: grid
+}
+
+.location-icon {
+    place-items: center
+}
+
+.location-icon {
+    margin: 0 auto 24px
+}
+
+.location-icon {
+    border-radius: 24px
+}
+
+.location-icon {
+    background: linear-gradient(135deg, #2563eb, #9333ea)
+}
+
+.location-icon {
+    box-shadow: 0 16px 38px rgba(37, 99, 235, 0.38)
+}
+
+.location-icon svg {
+    width: 34px
+}
+
+.location-icon svg {
+    fill: none
+}
+
+.location-icon svg {
+    stroke: white
+}
+
+.location-icon svg {
+    stroke-width: 1.8
+}
+
+.location-icon svg {
+    stroke-linecap: round
+}
+
+.location-icon svg {
+    stroke-linejoin: round
+}
+
+.small-heading {
+    margin: 0 0 14px
+}
+
+.small-heading {
+    color: #93c5fd
+}
+
+.small-heading {
+    font-size: 12px
+}
+
+.small-heading {
+    font-weight: 700
+}
+
+.small-heading {
+    letter-spacing: 2px
+}
+
+.box h2 {
+    margin: 0 auto 18px
+}
+
+.box h2 {
+    max-width: 440px
+}
+
+.box h2 {
+    color: #ffffff
+}
+
+.box h2 {
+    font-size: clamp(30px, 5vw, 43px)
+}
+
+.box h2 {
+    line-height: 1.12
+}
+
+.box h2 {
+    letter-spacing: -1.2px
+}
+
+.notice {
+    max-width: 430px
+}
+
+.notice {
+    margin: 0 auto 28px
+}
+
+.notice {
+    color: #b8bcc8
+}
+
+.notice {
+    font-size: 16px
+}
+
+.notice {
+    line-height: 1.7
+}
+
+.box button {
+    display: inline-flex
+}
+
+.box button {
+    align-items: center
+}
+
+.box button {
+    justify-content: center
+}
+
+.box button {
+    gap: 14px
+}
+
+.box button {
+    min-width: 190px
+}
+
+.box button {
+    padding: 15px 24px
+}
+
+.box button {
+    border: 0
+}
+
+.box button {
+    border-radius: 14px
+}
+
+.box button {
+    color: white
+}
+
+.box button {
+    background: linear-gradient(135deg, #2563eb, #7c3aed)
+}
+
+.box button {
+    font-size: 16px
+}
+
+.box button {
+    font-weight: 700
+}
+
+.box button {
+    cursor: pointer
+}
+
+.box button {
+    box-shadow: 0 15px 32px rgba(59, 130, 246, 0.3)
+}
+
+.box button {
+    transition: transform 180ms ease, box-shadow 180ms ease
+}
+
+.box button:hover {
+    transform: translateY(-3px)
+}
+
+.box button:hover {
+    box-shadow: 0 20px 42px rgba(99, 102, 241, 0.46)
+}
+
+.box button:active {
+    transform: translateY(0)
+}
+
+.arrow {
+    font-size: 22px
+}
+
+.privacy-text {
+    margin: 22px 0 0
+}
+
+.privacy-text {
+    color: #858b99
+}
+
+.privacy-text {
+    font-size: 13px
+}
+
+.privacy-text {
+    line-height: 1.5
+}
+
+#status {
+    min-height: 20px
+}
+
+#status {
+    margin: 15px 0 0
+}
+
+#status {
+    color: #93c5fd
+}
+
+#status {
+    font-size: 14px
+}
+
+@media (max-width: 600px) {
+    .box {
+        padding: 40px 24px 30px
+    }
+
+    .box {
+        border-radius: 22px
+    }
+
+    .box h2 {
+        font-size: 30px
+    }
 }
     </style>
 </head>
