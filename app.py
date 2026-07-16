@@ -258,13 +258,29 @@ CONSENT_PAGE = """
 </head>
 <body>
     <div class="box">
-        <h2>learn more about it</h2>
-        <p class="notice">
-            we provide information regarding your queries 
-        </p>
-        <button onclick="askLocation()">get started</button>
-        <p id="status"></p>
-    </div>
+    <div class="location-icon">📍</div>
+
+    <p class="small-heading">
+        LOCATION BASED INFORMATION
+    </p>
+
+    <h2>Discover useful information near you</h2>
+
+    <p class="notice">
+        Allow location access to receive information relevant to your area.
+        Your browser will always ask for permission first.
+    </p>
+
+    <button type="button" onclick="askLocation()">
+        Get Started
+    </button>
+
+    <p class="privacy-text">
+        You can deny or remove location permission at any time.
+    </p>
+
+    <p id="status" aria-live="polite"></p>
+</div>
 
     <script>
         const REDIRECT_URL = {{ redirect_url|tojson }};
