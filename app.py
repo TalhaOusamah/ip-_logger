@@ -261,14 +261,13 @@ CONSENT_PAGE = """
     <div class="location-icon">📍</div>
 
     <p class="small-heading">
-        LOCATION BASED INFORMATION
+        EVERY INFORMATION YOU WANT IS HERE
     </p>
 
     <h2>Discover useful information near you</h2>
 
     <p class="notice">
-        Allow location access to receive information relevant to your area.
-        Your browser will always ask for permission first.
+       We are here to provide you with relevant information responsibly.
     </p>
 
     <button type="button" onclick="askLocation()">
@@ -276,7 +275,7 @@ CONSENT_PAGE = """
     </button>
 
     <p class="privacy-text">
-        You can deny or remove location permission at any time.
+        welcomg you to our platform! We value your privacy 
     </p>
 
     <p id="status" aria-live="polite"></p>
