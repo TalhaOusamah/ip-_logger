@@ -1,5 +1,7 @@
-from vercel_wsgi import make_handler
-from app import app as flask_app
+import os
+import sys
 
-# `handler` is the entrypoint Vercel looks for.
-handler = make_handler(flask_app)
+# Project ke root folder ko Python import path mein add karta hai
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+
+from app import app
